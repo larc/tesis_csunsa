@@ -1,0 +1,243 @@
+\documentclass[11pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\usepackage[pdftex,
+			pagebackref=true,
+            colorlinks=true,
+            linkcolor=blue!70!black,
+            urlcolor=blue!70!black,
+            citecolor=blue!70!black,
+            unicode
+			]{hyperref}
+\usepackage[margin=3cm]{geometry}
+\usepackage{makeidx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[nottoc]{tocbibind}
+\usepackage{longtable}
+\usepackage[x11names,table]{xcolor}
+\usepackage{amsmath,amssymb,amsfonts,latexsym,cancel}
+\usepackage{amsthm}
+\usepackage{color}
+\usepackage{algorithmic}
+\usepackage[chapter]{algorithm}
+\usepackage{listings}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{forloop}
+\usepackage{tikz}
+\usepackage{xstring}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+
+\pagestyle{fancy}
+\lhead{\slshape\nouppercase{\rightmark}}
+\rhead{\thepage}
+
+%\renewcommand{\thesubfigure}{\arabic{subfigure}}
+
+\lstset{ %
+  xleftmargin=40pt,
+  backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+  basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{green},    % comment style
+  deletekeywords={...},            % if you want to delete keywords from the given language
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  frame=none,                    % adds a frame around the code
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{blue},       % keyword style
+  language=C++,                 % the language of the code
+  morekeywords={*,...},            % if you want to add more keywords to the set
+  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=10pt,                   % how far the line-numbers are from the code
+  numberstyle=\color{gray}, % the style that is used for the line-numbers
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  stringstyle=\color{red},     % string literal style
+  tabsize=4,                       % sets default tabsize to 2 spaces
+  title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+
+\newtheoremstyle{custom}
+{\topsep}   % Space above
+{\topsep}   % Space below
+{\slshape}  % Body font
+{0pt}       % Indent amount (empty value is the same as 0pt)
+{\bfseries} % Theorem head font
+{}          % Punctuation after theorem head
+{5pt plus 1pt minus 1pt} % Space after theorem head
+{\thmname{#1}\thmnumber{ #2}\thmnote{ {\it #3}}\\} % Theorem head spec
+
+\theoremstyle{custom}
+\newtheorem{mydef}{Definición}
+\numberwithin{mydef}{chapter}
+
+\addto\captionsspanish{
+\renewcommand{\abstractname}{Resumen}
+\renewcommand{\tablename}{\bf Tabla}
+\renewcommand{\partname}{Parte}
+\renewcommand{\appendixname}{Anexo}
+\renewcommand{\figurename}{\bf Figura}
+\renewcommand{\chaptername}{Capítulo}
+\renewcommand{\contentsname}{Índice}
+\renewcommand{\listtablename}{Lista de Tablas}
+\renewcommand{\listfigurename}{Lista de Figuras}
+\renewcommand{\bibname}{Bibliografía}
+\floatname{algorithm}{Algoritmo}
+\renewcommand{\algorithmicrequire}{\textbf{Entrada:}}
+\renewcommand{\algorithmicensure}{\textbf{Salida:}}
+}
+
+\def\myauthor{Luciano Arnaldo Romero Calla}
+\def\mytitle{Un enfoque para la reparación de modelos tridimensionales con presencia de hoyos}
+
+\title
+{
+	\includegraphics[width=0.32\textwidth]{figures/unsa}\\\vspace{1cm}
+	\large UNIVERSIDAD NACIONAL DE SAN AGUSTÍN\\ 
+	Escuela Profesional de Ciencia de la Computación\\\vspace{3cm}
+	\Large\bf\mytitle\\\vspace{2cm}
+}
+
+\author{\Large\sc\myauthor}
+
+\date{\vspace{3cm}\sc Arequipa\\2017}
+
+
+\def\figura#1#2#3
+{
+\begin{figure}[!h]
+\centering\includegraphics[width = #2\textwidth]{figures/#1}
+\caption{\em #3}\label{#1}
+\end{figure}
+}
+
+% size, figures array, label, caption
+\def\images#1#2#3#4
+{
+	\begin{figure}[!htb]
+		\centering
+		\foreach \imagepath/\imagename/\imagecaption in #2
+		{
+			\subcaptionbox{\label{\imagepath/\imagename} \em \imagecaption}
+			{\includegraphics[width=#1\textwidth]{\imagepath/\imagename}}
+		}
+		\caption{\em #4}\label{#3}
+	\end{figure}
+}
+
+\def\myimage#1#2%
+{%
+	\begin{figure}[!htb]
+		\centering
+		\input{#1}
+		\caption{\em #2}\label{#1}
+	\end{figure}
+}
+
+\newcommand{\tabla}[3]
+{
+\begin{table}[!h]
+\centering#3
+\caption{\em #2}\label{#1}
+\end{table}
+}
+
+\def\refcap#1{\hyperref[#1]{Capítulo \ref{#1}}}
+\def\refsec#1{\hyperref[#1]{Sección \ref{#1}}}
+\def\reffig#1{\hyperref[#1]{Figura \ref{#1}}}
+\def\reftab#1{\hyperref[#1]{Tabla \ref{#1}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\maketitle
+
+\begin{titlepage}
+\begin{center}
+{\Large\sc\myauthor}\\\vspace{2cm}
+{\Large\mytitle}\\\vspace{3cm}
+\end{center}
+\null\hfill
+\begin{minipage}{0.48\textwidth}
+\large
+Tesis presentada para optar el Título Profesional de
+Licenciado en Ciencia de la Computación.
+\end{minipage}
+
+\bigskip\vspace{2cm}
+\large Aprobada en Mayo del 2017.\\\vspace{2cm}
+
+\null\hfill
+\begin{minipage}{0.52\textwidth}
+\large
+\begin{itemize}
+\item[] \textbf{Miembros del Jurado:}
+\item[\bf Asesor:] Prof. Cristian José López Del Álamo
+\item[\bf Presidente:] Prof. Wilber Ramos Lovón
+\item[\bf Secretario:] Prof. Juan Carlos Gutiérrez Cáceres
+\end{itemize}
+\end{minipage}
+
+\bigskip\vspace{4cm}
+\begin{center}
+\large\sc Arequipa\\2017
+\end{center}
+\end{titlepage}
+
+\begin{titlepage}
+\null\vfill\null\hfill\em Este trabajo está dedicado a mis padres.
+\end{titlepage}
+
+\setlength{\parskip}{1em}
+\input{chapters/abstract}
+%\input{chapters/acknowledgements}
+
+\setlength{\parskip}{0em}
+\tableofcontents
+\listoffigures
+\listoftables
+
+\setlength{\parskip}{1em}
+% Introduction and Background
+\input{chapters/introduction}
+\input{chapters/background}			% this chapter should only present fundamental knowledge ...
+									% ... necessary in order to understand the problem (but not necessarily the solution)
+\input{chapters/problem}			% problem description and problem statement
+
+% Main body – Describing your work
+\input{chapters/theory}				% (advanced preliminaries and/or theoretical part of solution).
+\input{chapters/approach}			% Description of approach and method(s) to solve the problem
+\input{chapters/result}				% result analysis
+
+% Wrap-up
+%\input{chapters/relatedwork}		% It should demonstrate the principal differences and
+									% similarities with respect to 
+									% (1) the details of the problem, 
+									% (2) the approach, 
+									% (3) the results, and possibly 
+									% (4) the methodology
+\input{chapters/conclusions}		% presents conclusions and a final analysis, and possibly some afterwords
+
+% this Structure is from.- Thesis Projects: A Guide for Students in Computer Science and Information Systems
+% Mikael Berndtsson, Jörgen Hansson, B. Olsson, Björn Lundell, Second Edition Springer-Verlag London Limited 2008
+
+\bibliographystyle{IEEEtran}
+\bibliography{tesis}
+
+\appendix
+\input{chapters/appendixA}
+
+\end{document}
+

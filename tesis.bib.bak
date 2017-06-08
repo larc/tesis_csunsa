@@ -1,0 +1,466 @@
+% Encoding: x-MacRoman
+
+
+@InBook{Arias2009,
+  Title                    = {A Variational Framework for Non-local Image Inpainting},
+  Author                   = {Arias, Pablo
+and Caselles, Vicent
+and Sapiro, Guillermo},
+  Editor                   = {Cremers, Daniel
+and Boykov, Yuri
+and Blake, Andrew
+and Schmidt, Frank R.},
+  Pages                    = {345--358},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2009},
+
+  Address                  = {Berlin, Heidelberg},
+
+  Booktitle                = {Energy Minimization Methods in Computer Vision and Pattern Recognition: 7th International Conference, EMMCVPR 2009, Bonn, Germany, August 24-27, 2009. Proceedings},
+  Doi                      = {10.1007/978-3-642-03641-5_26},
+  File                     = {Arias2009.pdf:bibliography/Arias2009.pdf:PDF},
+  ISBN                     = {978-3-642-03641-5},
+  Url                      = {http://dx.doi.org/10.1007/978-3-642-03641-5_26}
+}
+
+@Book{Botsch2010,
+  Title                    = {Polygon Mesh Processing},
+  Author                   = {Botsch, M. and Kobbelt, L. and Pauly, M. and Alliez, P. and Levy, B.},
+  Publisher                = {CRC Press},
+  Year                     = {2010},
+
+  ISBN                     = {9781439865316},
+  Url                      = {https://books.google.com.pe/books?id=AuXqBgAAQBAJ}
+}
+
+@InProceedings{Boyer2011,
+  Title                    = {SHREC 2011: Robust Feature Detection and Description Benchmark},
+  Author                   = {Boyer, E. and Bronstein, A. M. and Bronstein, M. M. and Bustos, B. and Darom, T. and Horaud, R. and Hotz, I. and Keller, Y. and Keustermans, J. and Kovnatsky, A. and Litman, R. and Reininghaus, J. and Sipiran, I. and Smeets, D. and Suetens, P. and Vandermeulen, D. and Zaharescu, A. and Zobel, V.},
+  Booktitle                = {Proceedings of the 4th Eurographics Conference on 3D Object Retrieval},
+  Year                     = {2011},
+
+  Address                  = {Aire-la-Ville, Switzerland, Switzerland},
+  Pages                    = {71--78},
+  Publisher                = {Eurographics Association},
+  Series                   = {EG 3DOR'11},
+
+  Acmid                    = {2381184},
+  Doi                      = {10.2312/3DOR/3DOR11/071-078},
+  ISBN                     = {978-3-905674-31-6},
+  Location                 = {Llandudno, UK},
+  Numpages                 = {8},
+  Url                      = {http://dx.doi.org/10.2312/3DOR/3DOR11/071-078}
+}
+
+@InCollection{Branch2006,
+  Title                    = {A Hole-Filling Algorithm for Triangular Meshes Using Local Radial Basis Function},
+  Author                   = {Branch, John and Prieto, Flavio and Boulanger, Pierre},
+  Booktitle                = {Proceedings of the 15th International Meshing Roundtable},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2006},
+  Editor                   = {PÃ©bay, PhilippeP.},
+  Pages                    = {411-431},
+
+  Doi                      = {10.1007/978-3-540-34958-7_24},
+  File                     = {Branch2006.pdf:bibliografia/Branch2006.pdf:PDF},
+  ISBN                     = {978-3-540-34957-0},
+  Language                 = {English},
+  Url                      = {http://dx.doi.org/10.1007/978-3-540-34958-7_24}
+}
+
+@Book{Bronstein2008,
+  Title                    = {Numerical Geometry of Non-Rigid Shapes},
+  Author                   = {Bronstein, Alexander and Bronstein, Michael and Kimmel, Ron},
+  Publisher                = {Springer Publishing Company, Incorporated},
+  Year                     = {2008},
+  Edition                  = {1},
+
+  File                     = {Bronstein2008.pdf:bibliografia/Bronstein2008.pdf:PDF},
+  ISBN                     = {0387733000, 9780387733005}
+}
+
+@InProceedings{Brunton2009,
+  Title                    = {Filling holes in triangular meshes by curve unfolding.},
+  Author                   = {Brunton, Alan and Wuhrer, Stefanie and Shu, Chang and Bose, Prosenjit and Demaine, Erik D.},
+  Booktitle                = {Shape Modeling International},
+  Year                     = {2009},
+  Editor                   = {Yong, Jun-Hai and Spagnuolo, Michela and Wang, Wenping},
+  Pages                    = {66-72},
+  Publisher                = {IEEE Computer Society},
+
+  Added-at                 = {2011-06-14T00:00:00.000+0200},
+  Biburl                   = {http://www.bibsonomy.org/bibtex/21154a2896557d31356133837741ba202/dblp},
+  Ee                       = {http://dx.doi.org/10.1109/SMI.2009.5170165},
+  File                     = {Brunton2009.pdf:bibliografia/Brunton2009.pdf:PDF},
+  Interhash                = {c4c77d092c4ce1f94a783a723bf1e79f},
+  Intrahash                = {1154a2896557d31356133837741ba202},
+  ISBN                     = {978-1-4244-4068-9},
+  Keywords                 = {dblp},
+  Timestamp                = {2011-06-14T00:00:00.000+0200}
+}
+
+@InCollection{Canas2009,
+  Title                    = {Shape Operator Metric for Surface Normal Approximation},
+  Author                   = {Canas, GuillermoD. and Gortler, StevenJ.},
+  Booktitle                = {Proceedings of the 18th International Meshing Roundtable},
+  Publisher                = {Springer Berlin Heidelberg},
+  Year                     = {2009},
+  Editor                   = {Clark, BrettW.},
+  Pages                    = {447-461},
+
+  Doi                      = {10.1007/978-3-642-04319-2_26},
+  File                     = {Canas2009.pdf:bibliografia/Canas2009.pdf:PDF},
+  ISBN                     = {978-3-642-04318-5},
+  Language                 = {English},
+  Url                      = {http://dx.doi.org/10.1007/978-3-642-04319-2_26}
+}
+
+@Article{Caselles2008,
+  Title                    = {On Geometric Variational Models for Inpainting Surface Holes},
+  Author                   = {Caselles, V. and Haro, G. and Sapiro, G. and Verdera, J.},
+  Journal                  = {Comput. Vis. Image Underst.},
+  Year                     = {2008},
+
+  Month                    = sep,
+  Number                   = {3},
+  Pages                    = {351--373},
+  Volume                   = {111},
+
+  Acmid                    = {1410574},
+  Address                  = {New York, NY, USA},
+  Doi                      = {10.1016/j.cviu.2008.01.002},
+  File                     = {Caselles2008.pdf:bibliography/Caselles2008.pdf:PDF},
+  ISSN                     = {1077-3142},
+  Issue_date               = {September, 2008},
+  Keywords                 = {Absolute minimizing Lipschitz extension, Inpainting, Interpolation, Laplacian, Mean curvature, Scalar and vector fields, Surface holes, Variational formulations},
+  Numpages                 = {23},
+  Publisher                = {Elsevier Science Inc.},
+  Url                      = {http://dx.doi.org/10.1016/j.cviu.2008.01.002}
+}
+
+@Article{Centin2015,
+  Title                    = {Poisson-driven Seamless Completion of Triangular Meshes},
+  Author                   = {Centin, Marco and Pezzotti, Nicola and Signoroni, Alberto},
+  Journal                  = {Comput. Aided Geom. Des.},
+  Year                     = {2015},
+
+  Month                    = may,
+  Number                   = {C},
+  Pages                    = {42--55},
+  Volume                   = {35},
+
+  Acmid                    = {2797522},
+  Address                  = {Amsterdam, The Netherlands, The Netherlands},
+  Doi                      = {10.1016/j.cagd.2015.03.006},
+  File                     = {Centin2015.pdf:bibliography/Centin2015.pdf:PDF},
+  ISSN                     = {0167-8396},
+  Issue_date               = {May 2015},
+  Keywords                 = {3D scanning, Geometric modeling, Hole filling, Mesh completion, Poisson Reconstruction, Restricted Delaunay triangulation},
+  Numpages                 = {14},
+  Publisher                = {Elsevier Science Publishers B. V.},
+  Url                      = {http://dx.doi.org/10.1016/j.cagd.2015.03.006}
+}
+
+@InProceedings{Curless1996,
+  Title                    = {A Volumetric Method for Building Complex Models from Range Images},
+  Author                   = {Curless, Brian and Levoy, Marc},
+  Booktitle                = {Proceedings of the 23rd Annual Conference on Computer Graphics and Interactive Techniques},
+  Year                     = {1996},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {303--312},
+  Publisher                = {ACM},
+  Series                   = {SIGGRAPH '96},
+
+  Acmid                    = {237269},
+  Doi                      = {10.1145/237170.237269},
+  ISBN                     = {0-89791-746-4},
+  Keywords                 = {isosurface extraction, range image integration, surface fitting, three-dimensional shape recovery},
+  Numpages                 = {10},
+  Url                      = {http://doi.acm.org/10.1145/237170.237269}
+}
+
+@InProceedings{Davis2002,
+  Title                    = {Filling Holes in Complex Surfaces using Volumetric Diffusion.},
+  Author                   = {Davis, James and Marschner, Stephen R. and Garr, Matt and Levoy, Marc},
+  Booktitle                = {3DPVT},
+  Year                     = {2002},
+  Pages                    = {428-438},
+  Publisher                = {IEEE Computer Society},
+
+  ISBN                     = {0-7695-1521-5}
+}
+
+@MastersThesis{FuentesPerez2017,
+  Title                    = {Dictionary Learning-based Inpainting on Triangular Meshes},
+  Author                   = {Fuentes Pérez, Lizeth Joseline},
+  School                   = {Institute of Computing - Federal Fluminense University},
+  Year                     = {2017},
+  Month                    = {Feb},
+
+  Url                      = {http://www2.ic.uff.br/PosGraduacao/Dissertacoes/753.pdf}
+}
+
+@Article{Harary2014,
+  Title                    = {Context-based Coherent Surface Completion},
+  Author                   = {Harary, Gur and Tal, Ayellet and Grinspun, Eitan},
+  Journal                  = {ACM Trans. Graph.},
+  Year                     = {2014},
+
+  Month                    = feb,
+  Number                   = {1},
+  Pages                    = {5:1--5:12},
+  Volume                   = {33},
+
+  Acmid                    = {2532548},
+  Address                  = {New York, NY, USA},
+  Articleno                = {5},
+  Doi                      = {10.1145/2532548},
+  File                     = {Harary2014.pdf:bibliografia/Harary2014.pdf:PDF},
+  ISSN                     = {0730-0301},
+  Issue_date               = {January 2014},
+  Keywords                 = {Surface completion, hole filling},
+  Numpages                 = {12},
+  Publisher                = {ACM},
+  Url                      = {http://doi.acm.org/10.1145/2532548}
+}
+
+@Article{Ju2004,
+  Title                    = {Robust repair of polygonal models},
+  Author                   = {Tao Ju},
+  Journal                  = {ACM Trans. Graph},
+  Year                     = {2004},
+  Pages                    = {888--895},
+  Volume                   = {23},
+
+  File                     = {Ju2004.pdf:bibliografia/Ju2004.pdf:PDF}
+}
+
+@Article{Jun2005,
+  Title                    = {A piecewise hole filling algorithm in reverse engineering },
+  Author                   = {Yongtae Jun},
+  Journal                  = {Computer-Aided Design },
+  Year                     = {2005},
+  Number                   = {2},
+  Pages                    = {263 - 270},
+  Volume                   = {37}
+}
+
+@Article{Li2010,
+  Title                    = {Polynomial blending in a mesh hole-filling application },
+  Author                   = {Z. Li and D.S. Meek and D.J. Walton},
+  Journal                  = {Computer-Aided Design },
+  Year                     = {2010},
+  Number                   = {4},
+  Pages                    = {340 - 349},
+  Volume                   = {42},
+
+  Doi                      = {http://dx.doi.org/10.1016/j.cad.2009.12.006},
+  File                     = {Li2010.pdf:bibliografia/Li2010.pdf:PDF},
+  ISSN                     = {0010-4485},
+  Keywords                 = {Mesh hole-filling},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0010448510000072}
+}
+
+@InProceedings{Liepa2003,
+  Title                    = {Filling Holes in Meshes},
+  Author                   = {Liepa, Peter},
+  Booktitle                = {Proceedings of the 2003 Eurographics/ACM SIGGRAPH Symposium on Geometry Processing},
+  Year                     = {2003},
+
+  Address                  = {Aire-la-Ville, Switzerland, Switzerland},
+  Pages                    = {200--205},
+  Publisher                = {Eurographics Association},
+  Series                   = {SGP '03},
+
+  Acmid                    = {882397},
+  File                     = {Liepa2003.pdf:bibliography/Liepa2003.pdf:PDF},
+  ISBN                     = {1-58113-687-0},
+  Location                 = {Aachen, Germany},
+  Numpages                 = {6},
+  Url                      = {http://dl.acm.org/citation.cfm?id=882370.882397}
+}
+
+@Article{litman2011,
+  Title                    = {SMI 2011: Full Paper: Diffusion-geometric Maximally Stable Component Detection in Deformable Shapes},
+  Author                   = {Litman, Roee and Bronstein, Alexander M. and Bronstein, Michael M.},
+  Journal                  = {Comput. Graph.},
+  Year                     = {2011},
+
+  Month                    = jun,
+  Number                   = {3},
+  Pages                    = {549--560},
+  Volume                   = {35},
+
+  Acmid                    = {1994422},
+  Address                  = {Elmsford, NY, USA},
+  Doi                      = {10.1016/j.cag.2011.03.011},
+  ISSN                     = {0097-8493},
+  Issue_date               = {June, 2011},
+  Keywords                 = {Component tree, Deformable shapes, Diffusion geometry, Feature detection, Level sets, MSER},
+  Numpages                 = {12},
+  Publisher                = {Pergamon Press, Inc.},
+  Url                      = {http://dx.doi.org/10.1016/j.cag.2011.03.011}
+}
+
+@Article{Pernot2006,
+  Title                    = {Filling holes in meshes using a mechanical model to simulate the curvature variation minimization },
+  Author                   = {Jean-Philippe Pernot and George Moraru and Philippe VÃ©ron},
+  Journal                  = {Computers \& Graphics },
+  Year                     = {2006},
+  Number                   = {6},
+  Pages                    = {892 - 902},
+  Volume                   = {30},
+
+  Doi                      = {http://dx.doi.org/10.1016/j.cag.2006.08.020},
+  File                     = {Pernot2006.pdf:bibliografia/Pernot2006.pdf:PDF},
+  ISSN                     = {0097-8493},
+  Keywords                 = {Reverse engineering},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0097849306001452}
+}
+
+@InProceedings{Pfeifle1996,
+  Title                    = {Triangular B-splines for Blending and Filling of Polygonal Holes},
+  Author                   = {Pfeifle, Ron and Seidel, Hans-Peter},
+  Booktitle                = {Proceedings of the Conference on Graphics Interface '96},
+  Year                     = {1996},
+
+  Address                  = {Toronto, Ont., Canada, Canada},
+  Pages                    = {186--193},
+  Publisher                = {Canadian Information Processing Society},
+  Series                   = {GI '96},
+
+  Acmid                    = {241073},
+  ISBN                     = {0-9695338-5-3},
+  Keywords                 = {DMS splines, blending, filling polygonal holes, surface smoothing, triangular B-splines},
+  Location                 = {Toronto, Ontario, Canada},
+  Numpages                 = {8},
+  Url                      = {http://dl.acm.org/citation.cfm?id=241020.241073}
+}
+
+@InProceedings{Rojas2014,
+  Title                    = {Quantitative Comparison of Hole Filling Methods for 3D Object Search},
+  Author                   = {Rojas, M. A. and Sukno, F. M. and Waddington, J. L. and Whelan, P. F.},
+  Booktitle                = {Proceedings of the 7th Eurographics Workshop on 3D Object Retrieval},
+  Year                     = {2014},
+
+  Address                  = {Aire-la-Ville, Switzerland, Switzerland},
+  Pages                    = {25--32},
+  Publisher                = {Eurographics Association},
+  Series                   = {3DOR '15},
+
+  Acmid                    = {2854129},
+  Doi                      = {10.2312/3dor.20141046},
+  File                     = {Rojas2014.pdf:bibliography/Rojas2014.pdf:PDF},
+  ISBN                     = {978-3-905674-58-3},
+  Location                 = {Strasbourg, France},
+  Numpages                 = {8},
+  Url                      = {http://dx.doi.org/10.2312/3dor.20141046}
+}
+
+@Article{Sandwell1987,
+  Title                    = {Biharmonic spline interpolation of {GEOS}-3 and {SEASAT} altimeter data},
+  Author                   = {Sandwell, D. T.},
+  Journal                  = {Geophysical Research Letters},
+  Year                     = {1987},
+
+  Month                    = feb,
+  Number                   = {2},
+  Pages                    = {139--142},
+  Volume                   = {12},
+
+  Citeulike-article-id     = {1276845},
+  File                     = {Sandwell1987.pdf:bibliografia/Sandwell1987.pdf:PDF},
+  Keywords                 = {altimeter, and, biharmonic, data, geos-3, interpolation, of, seasat, spline},
+  Posted-at                = {2007-06-05 13:00:39}
+}
+
+@InProceedings{Sipiran2012,
+  Title                    = {Key-component Detection on 3D Meshes Using Local Features},
+  Author                   = {Sipiran, Ivan and Bustos, Benjamin},
+  Booktitle                = {Proceedings of the 5th Eurographics Conference on 3D Object Retrieval},
+  Year                     = {2012},
+
+  Address                  = {Aire-la-Ville, Switzerland, Switzerland},
+  Pages                    = {25--32},
+  Publisher                = {Eurographics Association},
+  Series                   = {EG 3DOR'12},
+
+  Acmid                    = {2381200},
+  Doi                      = {10.2312/3DOR/3DOR12/025-032},
+  File                     = {Sipiran2012.pdf:bibliografia/Sipiran2012.pdf:PDF},
+  ISBN                     = {978-3-905674-36-1},
+  Location                 = {Cagliari, Italy},
+  Numpages                 = {8},
+  Url                      = {http://dx.doi.org/10.2312/3DOR/3DOR12/025-032}
+}
+
+@Article{Sipiran2011,
+  Title                    = {Harris 3D: A Robust Extension of the Harris Operator for Interest Point Detection on 3D Meshes},
+  Author                   = {Sipiran, Ivan and Bustos, Benjamin},
+  Journal                  = {Vis. Comput.},
+  Year                     = {2011},
+
+  Month                    = nov,
+  Number                   = {11},
+  Pages                    = {963--976},
+  Volume                   = {27},
+
+  Acmid                    = {2134343},
+  Address                  = {Secaucus, NJ, USA},
+  Doi                      = {10.1007/s00371-011-0610-y},
+  File                     = {Sipiran2011.pdf:bibliografia/Sipiran2011.pdf:PDF},
+  ISSN                     = {0178-2789},
+  Issue_date               = {November 2011},
+  Keywords                 = {Harris operator, Local features},
+  Numpages                 = {14},
+  Publisher                = {Springer-Verlag New York, Inc.},
+  Url                      = {http://dx.doi.org/10.1007/s00371-011-0610-y}
+}
+
+@Article{Wang2012,
+  Title                    = {Automatic hole-filling of \{CAD\} models with feature-preserving },
+  Author                   = {Xiaochao Wang and Xiuping Liu and Linfa Lu and Baojun Li and Junjie Cao and Baocai Yin and Xiquan Shi},
+  Journal                  = {Computers \& Graphics },
+  Year                     = {2012},
+  Note                     = {Virtual Reality in Brazil 2011 },
+  Number                   = {2},
+  Pages                    = {101 - 110},
+  Volume                   = {36},
+
+  Doi                      = {http://dx.doi.org/10.1016/j.cag.2011.12.007},
+  File                     = {Wang2012.pdf:bibliografia/Wang2012.pdf:PDF},
+  ISSN                     = {0097-8493},
+  Keywords                 = {Hole-filling},
+  Url                      = {http://www.sciencedirect.com/science/article/pii/S0097849311001749}
+}
+
+@Article{Zhao2007,
+  Title                    = {A robust hole-filling algorithm for triangular mesh},
+  Author                   = {Zhao, Wei
+and Gao, Shuming
+and Lin, Hongwei},
+  Journal                  = {The Visual Computer},
+  Year                     = {2007},
+  Number                   = {12},
+  Pages                    = {987--997},
+  Volume                   = {23},
+
+  Abstract                 = {This paper presents a novel hole-filling algorithm that can fill arbitrary holes in triangular mesh models. First, the advancing front mesh technique is used to cover the hole with newly created triangles. Next, the desirable normals of the new triangles are approximated using our desirable normal computing schemes. Finally, the three coordinates of every new vertex are re-positioned by solving the Poisson equation based on the desirable normals and the boundary vertices of the hole. Many experimental results and error evaluations are given to show the robustness and efficiency of the algorithm.},
+  Doi                      = {10.1007/s00371-007-0167-y},
+  ISSN                     = {1432-2315},
+  Url                      = {http://dx.doi.org/10.1007/s00371-007-0167-y}
+}
+
+@Book{book:266921,
+  title     = {Differential Manifolds},
+  publisher = {Academic Press},
+  year      = {1992},
+  author    = {Antoni A. Kosinski},
+  series    = {Pure and Applied Mathematics Volume 138},
+  edition   = {1st},
+  isbn      = {9780124218505,0124218504},
+  url       = {http://gen.lib.rus.ec/book/index.php?md5=7622B50218E6F6A23370E8017E3DD5CF},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
